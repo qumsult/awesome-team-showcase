@@ -401,7 +401,7 @@ function awts_shortcode_function_member_list($atts, $content = null) {
 		$team_members_output .='</div>';
 		//member social icons
 		
-		$team_members_output .= '<div class="mem-show-full"><a href="javascript:void(0)" onclick="showMemberDeatails('.get_the_ID().')" >Profil anzeigen</a></div>';
+		$team_members_output .= '<div class="mem-show-full"><a href="javascript:void(0)" onclick="showMemberDetails('.get_the_ID().')" >Profil anzeigen</a></div>';
 		$team_members_output .= '</div>';
 		//detailed pop up start
 		
@@ -457,7 +457,7 @@ function awts_shortcode_function_member_list($atts, $content = null) {
 	</div>';
 	
 	$team_members_output .='<script type="text/javascript">
-		function showMemberDeatails(memid){
+		function showMemberDetails(memid){
 		 jQuery("#member-detail-pop-"+memid).show();
 		 jQuery(".pop-mask").show();
 		}
