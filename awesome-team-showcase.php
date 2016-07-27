@@ -401,7 +401,7 @@ function awts_shortcode_function_member_list($atts, $content = null) {
 		$team_members_output .='</div>';
 		//member social icons
 		
-		$team_members_output .= '<div class="mem-show-full"><a href="javascript:void(0)" onclick="showMemberDeatails('.get_the_ID().')" >View full profile</a></div>';
+		$team_members_output .= '<div class="mem-show-full"><a href="javascript:void(0)" onclick="showMemberDeatails('.get_the_ID().')" >Profil anzeigen</a></div>';
 		$team_members_output .= '</div>';
 		//detailed pop up start
 		
