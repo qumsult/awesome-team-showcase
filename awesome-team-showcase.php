@@ -5,6 +5,7 @@ Plugin URI: http://www.netattingo.com/
 Description: This plugin provides to show awesome team showcase to you post or pages just using shortcode.
 Author: NetAttingo Technologies
 Version: 1.0.0
+License: GPLv2
 Author URI: http://www.netattingo.com/
 */
 
