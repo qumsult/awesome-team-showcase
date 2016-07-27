@@ -345,6 +345,8 @@ function awts_shortcode_function_member_list($atts, $content = null) {
 					)
 				),
 				'posts_per_page' => -1,
+				'orderby' => 'title',
+				'order'   => 'ASC',
 				
 			);
 		}else{
@@ -352,6 +354,8 @@ function awts_shortcode_function_member_list($atts, $content = null) {
 				'post_type' => 'aw-team-member',
 				'post_status' => 'publish',
 				'posts_per_page' => -1,
+				'orderby' => 'title',
+				'order'   => 'ASC',
 			);
 		}
 		//query_posts( $args );
