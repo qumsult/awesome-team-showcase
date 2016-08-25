@@ -1,5 +1,9 @@
 /*==================Team-Members====================*/
 
+.awts-wrapper-main {
+    display: inline-block;
+}
+
 .awts-wrapper-main .awts-header h1 {
     border-bottom: 1px dotted #999;
     color: firebrick;
