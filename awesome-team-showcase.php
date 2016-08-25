@@ -315,11 +315,12 @@ function awts_member_google_box_save( $post_id ) {
 function awts_shortcode_function_member_list($atts, $content = null) {
 	extract(shortcode_atts(array(
 		'category' => '',
+		'title' => '',
 		), $atts));
 		
-	    $head_tile='Team Members';
-		if($category != ''){
-		 $head_tile= $category;
+	    $head_tile= $category;
+		if($title != ''){
+		 $head_tile= $title;
 		}
 		
 	
