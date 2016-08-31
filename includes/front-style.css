@@ -105,6 +105,7 @@
 .awts-wrapper-main .mem-role {
     /*color: #0FBE7C;*/
     font-size: 14px;
+    min-height: 3em;
 }
 
 
